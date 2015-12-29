@@ -1,0 +1,19 @@
+{
+  "name": "Violet",
+  "version": "1.0.0",
+  "description": "Violet - The Lexteam website CSS framework.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lexteam/Violet.git"
+  },
+  "author": "Lexteam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lexteam/Violet/issues"
+  },
+  "homepage": "https://github.com/Lexteam/Violet",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.1"
+  }
+}
