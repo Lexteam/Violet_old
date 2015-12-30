@@ -150,6 +150,3 @@ node_modules
 
 ### VisualStudioCode ###
 .vscode
-
-### Violet ###
-dist/
