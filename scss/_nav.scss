@@ -7,13 +7,13 @@
   margin: 0;
   padding: 0;
 
-  background-color: black;
+  background-color: $colour_navbar_background;
 
   //font-family: 'Blogger Sans', sans-serif;
 
   .enabled {
-    background-color: $colour_lex_green;
-    border-bottom-color: $colour_lex_green !important;
+    background-color: $colour_navbar_highlight;
+    border-bottom-color: $colour_navbar_highlight !important;
   }
 
   li {
@@ -21,7 +21,7 @@
     padding: 0.25em 0.8em calc(0.25em - 0.4em) 0.8em;
 
     font-size: x-large;
-    color: white;
+    color: $colour_navbar_foreground;
     font-weight: bold;
 
     border-bottom: 0.4em solid black;
@@ -40,7 +40,7 @@
     }
 
     &:hover:not(.brand) {
-      border-bottom-color: $colour_lex_green;
+      border-bottom-color: $colour_navbar_highlight;
     }
   }
 

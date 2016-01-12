@@ -11,10 +11,10 @@ gulp.task('scss', function () {
 });
 
 gulp.task('build', ['scss'], function () {
-    gulp.src('dist/violet.css')
+    gulp.src('./dist/violet.css')
         .pipe(cssmin())
         .pipe(rename({suffix: '.min'}))
-        .pipe(gulp.dest('dist'));
+        .pipe(gulp.dest('./dist'));
 });
 
 gulp.task('default', ['build']);

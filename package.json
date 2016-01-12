@@ -1,6 +1,6 @@
 {
   "name": "lex-violet",
-  "version": "1.0.0",
+  "version": "1.0.1-indev",
   "description": "Violet - The Lexteam website CSS framework.",
   "repository": {
     "type": "git",
@@ -12,11 +12,11 @@
     "url": "https://github.com/Lexteam/Violet/issues"
   },
   "homepage": "https://github.com/Lexteam/Violet",
+  "dependencies": {},
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-cssmin": "^0.1.7",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.1.1"
-  },
-  "dependencies": {}
+  }
 }
