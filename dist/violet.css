@@ -112,9 +112,9 @@ main {
     font-size: x-large;
     color: #ffe066;
     font-weight: bold;
-    border-bottom: 0.4em solid black; }
+    border-bottom: 0.4em solid #33cc33; }
     .nav-bar li a {
-      color: white;
+      color: #ffe066;
       text-decoration: none; }
     .nav-bar li:not(.brand) {
       border-right: 0.05em solid #ccc; }

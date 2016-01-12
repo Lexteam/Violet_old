@@ -24,10 +24,10 @@
     color: $colour_navbar_foreground;
     font-weight: bold;
 
-    border-bottom: 0.4em solid black;
+    border-bottom: 0.4em solid $colour_navbar_highlight;
 
     a {
-      color: white;
+      color: $colour_navbar_foreground;
       text-decoration: none;
     }
 
