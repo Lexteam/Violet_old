@@ -102,7 +102,7 @@ main {
   list-style: none;
   margin: 0;
   padding: 0;
-  background-color: #f25f5c; }
+  background-color: black; }
   .nav-bar .enabled {
     background-color: #33cc33;
     border-bottom-color: #33cc33 !important; }
@@ -110,11 +110,11 @@ main {
     float: left;
     padding: 0.25em 0.8em calc(0.25em - 0.4em) 0.8em;
     font-size: x-large;
-    color: #ffe066;
+    color: white;
     font-weight: bold;
-    border-bottom: 0.4em solid #f25f5c; }
+    border-bottom: 0.4em solid black; }
     .nav-bar li a {
-      color: #ffe066;
+      color: white;
       text-decoration: none; }
     .nav-bar li:not(.brand) {
       border-right: 0.05em solid #ccc; }
