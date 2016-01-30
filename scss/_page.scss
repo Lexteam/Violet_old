@@ -25,7 +25,7 @@
   text-align: center;
   word-wrap: break-word;
   width: 100%;
-  * {
+  /** {
     @media (min-width: 1500px) {
       margin: 0 10em;
     }
@@ -38,7 +38,7 @@
     @media (min-width: 1166px) {
       max-height: 17.5rem !important;
     }
-  }
+  }*/
   p {
     font-size: 1.2em;
   }
