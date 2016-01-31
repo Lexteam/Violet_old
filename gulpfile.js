@@ -4,14 +4,18 @@ var sass = require('gulp-sass');
 var cssmin = require('gulp-cssmin');
 var rename = require('gulp-rename');
 
+gulp.task('watch', function () {
+    gulp.watch('scss/*.scss', ['build']);
+});
+
 gulp.task('scss', function () {
-    gulp.src('./scss/violet.scss')
+    return gulp.src('./scss/violet.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('./dist'));
 });
 
 gulp.task('build', ['scss'], function () {
-    gulp.src('./dist/violet.css')
+    return gulp.src('./dist/violet.css')
         .pipe(cssmin())
         .pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest('./dist'));
